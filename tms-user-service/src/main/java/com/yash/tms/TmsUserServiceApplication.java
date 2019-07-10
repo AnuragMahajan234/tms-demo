@@ -1,4 +1,4 @@
-package com.yash.Examtool2Application;
+package com.yash.tms;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Bean;
 
 
 @SpringBootApplication
-public class DatabaseDemoApplication {
+public class TmsUserServiceApplication {
 
 /*	@Bean
 	public BCryptPasswordEncoder bCryptPasswordEncoder() {
@@ -14,7 +14,7 @@ public class DatabaseDemoApplication {
 	}*/
 
 	public static void main(String[] args) {
-		SpringApplication.run(DatabaseDemoApplication.class, args);
+		SpringApplication.run(TmsUserServiceApplication.class, args);
 	}
 
 }

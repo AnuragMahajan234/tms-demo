@@ -1,8 +1,8 @@
-package com.yash.Examtool2Application.service;
+package com.yash.tms.service;
 
 import java.util.Optional;
 
-import com.yash.Examtool2Application.domain.User;
+import com.yash.tms.domain.User;
 
 public interface UserService {
 	

@@ -1,4 +1,4 @@
-package com.yash.Examtool2Application.exception;
+package com.yash.tms.exception;
 
 public class LoginnameExceptionResponse {
 

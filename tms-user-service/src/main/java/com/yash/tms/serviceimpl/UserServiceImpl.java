@@ -1,4 +1,4 @@
-package com.yash.Examtool2Application.serviceimpl;
+package com.yash.tms.serviceimpl;
 
 import java.util.Optional;
 
@@ -6,10 +6,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.stereotype.Service;
 
-import com.yash.Examtool2Application.domain.User;
-import com.yash.Examtool2Application.exception.LoginnameException;
-import com.yash.Examtool2Application.repository.UserRepository;
-import com.yash.Examtool2Application.service.UserService;
+import com.yash.tms.domain.User;
+import com.yash.tms.exception.LoginnameException;
+import com.yash.tms.repository.UserRepository;
+import com.yash.tms.service.UserService;
 
 @Service
 public class UserServiceImpl implements UserService {

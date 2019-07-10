@@ -1,4 +1,4 @@
-package com.yash.Examtool2Application.domain;
+package com.yash.tms.domain;
 
 import java.util.Date;
 

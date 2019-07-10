@@ -1,4 +1,4 @@
-package com.yash.Examtool2Application.web;
+package com.yash.tms.web;
 
 import java.util.Optional;
 
@@ -21,10 +21,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.yash.Examtool2Application.command.LoginCommand;
-import com.yash.Examtool2Application.domain.User;
-import com.yash.Examtool2Application.serviceimpl.MapValidationErrorService;
-import com.yash.Examtool2Application.serviceimpl.UserServiceImpl;
+import com.yash.tms.command.LoginCommand;
+import com.yash.tms.domain.User;
+import com.yash.tms.serviceimpl.MapValidationErrorService;
+import com.yash.tms.serviceimpl.UserServiceImpl;
 
 @RestController
 @CrossOrigin

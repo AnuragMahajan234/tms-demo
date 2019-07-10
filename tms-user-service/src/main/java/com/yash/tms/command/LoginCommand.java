@@ -1,4 +1,4 @@
-package com.yash.Examtool2Application.command;
+package com.yash.tms.command;
 
 import javax.validation.constraints.NotBlank;
 

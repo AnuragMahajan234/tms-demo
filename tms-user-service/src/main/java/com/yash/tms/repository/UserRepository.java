@@ -1,9 +1,10 @@
-package com.yash.Examtool2Application.repository;
+package com.yash.tms.repository;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
-import com.yash.Examtool2Application.domain.User;
+import com.yash.tms.domain.User;
+
 import java.lang.String;
 import java.util.List;
 
